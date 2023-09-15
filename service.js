@@ -1,0 +1,63 @@
+//part1 //navbar
+$(document).ready(function(){
+    $('.current-page').addClass('text-red');
+})
+//part4
+$(document).ready(function(){
+    $('.card1-part4').mouseenter(function(){
+        $(this).removeClass('bg-gray5'),
+        $(this).addClass('bg-red'),
+        $('.fa-cogs').css("color","white"),
+        $('.link-card1-part4').removeClass('text-red1'),
+        $('.link-card1-part4').addClass('text-light');
+    }),
+    $('.card1-part4').mouseleave(function(){
+        $(this).removeClass('bg-red'),
+        $(this).addClass('bg-gray5'),
+        $('.fa-cogs').css("color","#f55164e5"),
+        $('.link-card1-part4').removeClass('text-light'),
+        $('.link-card1-part4').addClass('text-red1');
+    }),
+    $('.card2-part4').mouseenter(function(){
+        $(this).removeClass('bg-gray5'),
+        $(this).addClass('bg-red'),
+        $('.bi-display').css("color","white"),
+        $('.link-card2-part4').removeClass('text-red1'),
+        $('.link-card2-part4').addClass('text-light');
+    }),
+    $('.card2-part4').mouseleave(function(){
+        $(this).removeClass('bg-red'),
+        $(this).addClass('bg-gray5'),
+        $('.bi-display').css("color","#f55164e5"),
+        $('.link-card2-part4').removeClass('text-light'),
+        $('.link-card2-part4').addClass('text-red1');
+    }),
+    $('.card3-part4').mouseenter(function(){
+        $(this).removeClass('bg-gray5'),
+        $(this).addClass('bg-red'),
+        $('.fa-signal').css("color","white"),
+        $('.link-card3-part4').removeClass('text-red1'),
+        $('.link-card3-part4').addClass('text-light');
+    }),
+    $('.card3-part4').mouseleave(function(){
+        $(this).removeClass('bg-red'),
+        $(this).addClass('bg-gray5'),
+        $('.fa-signal').css("color","#f55164e5"),
+        $('.link-card3-part4').removeClass('text-light'),
+        $('.link-card3-part4').addClass('text-red1');
+    }),
+    $('.card4-part4').mouseenter(function(){
+        $(this).removeClass('bg-gray5'),
+        $(this).addClass('bg-red'),
+        $('.bi-chat-text').css("color","white"),
+        $('.link-card4-part4').removeClass('text-red1'),
+        $('.link-card4-part4').addClass('text-light');
+    }),
+    $('.card4-part4').mouseleave(function(){
+        $(this).removeClass('bg-red'),
+        $(this).addClass('bg-gray5'),
+        $('.bi-chat-text').css("color","#f55164e5"),
+        $('.link-card4-part4').removeClass('text-light'),
+        $('.link-card4-part4').addClass('text-red1');
+    })
+})
